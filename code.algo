@@ -1,0 +1,19 @@
+ALGORITHM ssentence
+VAR
+    c= CHAR
+    lenght,n-word,n-vow: INTEGER=0
+BEGIN
+    do 
+    read(c)
+    lenght=lenght+1
+    IF (c=='a',c=='e',c=='i',c=='o',c=='u',c=='A',c=='E',c=='I',c=='O',c=='U') then
+    n-vow= n-vow+1
+    IF (c=' ') then
+    n-wod=n-wod+1
+    WHILE (c<>'.') 
+    write
+    lenght
+    n-word
+    n-vow
+
+END
